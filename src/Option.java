@@ -1,4 +1,15 @@
-package PACKAGE_NAME;
+public class Option {
 
-public class Options {
+    private String numberOfOptionByLetter;
+    private String textOfOption;
+
+
+    public Option(String numberOfOptionByLetter, String textOfOption) {
+        this.numberOfOptionByLetter = numberOfOptionByLetter;
+        this.textOfOption = textOfOption;
+    }
+
+    public void printOptions(){
+        System.out.println(numberOfOptionByLetter + "." + textOfOption);
+    }
 }
